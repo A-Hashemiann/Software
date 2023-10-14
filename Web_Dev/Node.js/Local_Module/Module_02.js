@@ -2,7 +2,7 @@
 // create function 
 const createCharacter = () => {
     const name = "Dynamic Input Data",
-      age = 20;
+      age = Math.floor(Math.random() * 90);
     // ...
     // ...
     return { userName: name, userAge: age };
