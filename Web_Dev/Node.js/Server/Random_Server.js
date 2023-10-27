@@ -15,6 +15,19 @@ function getRandomPort() {
   }
 
 
+
+function createRandomServer() {
+if (currentServer) {
+    currentServer.close(() => {
+    console.log(`server on port ${currentServer.address().port} closed.`);
+    startRandomServer();
+    });
+} else {
+    startRandomServer();
+}
+}
+
+
 function startRandomServer() {
 const port = getRandomPort();
 const server = http.createServer((req, res) => {
