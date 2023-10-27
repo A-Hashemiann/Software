@@ -42,3 +42,11 @@ server.listen(port, () => {
 currentServer = server;
 }
   
+
+// start random servers at a specified time interval
+const interval = 5000; // every 5 seconds, start a random server
+
+setInterval(createRandomServer, interval);
+
+// start the first server
+createRandomServer();
