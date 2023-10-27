@@ -13,3 +13,19 @@ function getRandomPort() {
     const range = maxPort - minPort + 1;
     return Math.floor(Math.random() * range) + minPort;
   }
+
+
+function startRandomServer() {
+const port = getRandomPort();
+const server = http.createServer((req, res) => {
+    res.writeHead(200, { 'Content-Type': 'text/plain' });
+    res.end(`hello, server running on port ${port}!\n`);
+});
+
+server.listen(port, () => {
+    console.log(`server is listening on port ${port}...`);
+});
+
+currentServer = server;
+}
+  
