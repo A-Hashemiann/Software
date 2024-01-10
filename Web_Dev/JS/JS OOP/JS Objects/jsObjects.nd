@@ -1,0 +1,14 @@
+This document provides a comprehensive guide to JavaScript objects, including their definition, properties, methods, inheritance, and more.
+
+## Table of Contents
+
+1. [Introduction to JavaScript Objects](#introduction-to-javascript-objects)
+2. [Defining Objects](#defining-objects)
+3. [Accessing and Modifying Properties](#accessing-and-modifying-properties)
+4. [Defining Getters and Setters](#defining-getters-and-setters)
+5. [Enumerating Properties](#enumerating-properties)
+6. [Defining Methods](#defining-methods)
+7. [Inheritance](#inheritance)
+8. [Adding New Properties and Methods](#adding-new-properties-and-methods)
+9. [Using the Spread Operator](#using-the-spread-operator)
+
