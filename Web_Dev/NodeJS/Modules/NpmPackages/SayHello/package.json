@@ -1,8 +1,9 @@
 {
   "name": "sayhello",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "It is just a test package function",
+  "main": "./dist/index.js",
+  "module":"./dist/index.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
