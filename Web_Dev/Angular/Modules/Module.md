@@ -18,7 +18,18 @@ import { ProjectComponent } from './project/project.component';
 })
 export class DashboardModule { }
  ```
-$ npm install -g component
+import { NgModule } from '@angular/core';
+import { SharedModule } from '../shared/SharedModule';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { ProjectComponent } from './project/project.component';
+@NgModule({
+ imports: [
+   NgModule,
+   SharedModule
+ ],
+ declarations: [ DashboardComponent, ProjectComponent ]
+})
+export class DashboardModule { }
  ```
   `
 - **Root Module**: The root module is the top-level module that tells Angular how to assemble the application. The root module is conventionally named `AppModule`.
