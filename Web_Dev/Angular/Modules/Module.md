@@ -38,4 +38,7 @@ export class CoreModule {
 }
 ```
 - **Root Module**: The root module is the top-level module that tells Angular how to assemble the application. The root module is conventionally named `AppModule`.
+- **Shared Module**: The shared module is used to organize and expose common components, directives, and pipes that are used across multiple feature modules. By placing these common elements in a shared module, you can reduce duplication and make your codebase more maintainable.
+```js
 
+```
