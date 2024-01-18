@@ -20,6 +20,6 @@ import { ProjectComponent } from './project/project.component';
 })
 export class DashboardModule { }
  ```
-  
+- **Core Module**: The core module is used for singleton services and single-use components like navigation bars, footers, etc. These services and components are only instantiated once throughout the application. The core module should only be imported once in the root module. 
 - **Root Module**: The root module is the top-level module that tells Angular how to assemble the application. The root module is conventionally named `AppModule`.
 
