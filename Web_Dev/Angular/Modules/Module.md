@@ -22,7 +22,20 @@ export class DashboardModule { }
  ```
 - **Core Module**: The core module is used for singleton services and single-use components like navigation bars, footers, etc. These services and components are only instantiated once throughout the application. The core module should only be imported once in the root module.
 ```js
+import { NgModule, Optional, SkipSelf } from '@angular/core';
 
+import { ApiService } from './services/api.service';
+
+@NgModule({
+ providers: [ ApiService ]
+})
+export class CoreModule {
+ constructor(@Optional() @SkipSelf() parent: CoreModule) {
+   if (parent) {
+     throw new Error('Import CoreModule in the root module only!!!');
+   }
+ }
+}
 ```
 - **Root Module**: The root module is the top-level module that tells Angular how to assemble the application. The root module is conventionally named `AppModule`.
 
