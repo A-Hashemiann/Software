@@ -17,7 +17,7 @@ import { ProjectComponent } from './project/project.component';
  declarations: [ DashboardComponent, ProjectComponent ]
 })
 export class DashboardModule { }
- ```
+ ```js
 import { NgModule } from '@angular/core';
 import { SharedModule } from '../shared/SharedModule';
 import { DashboardComponent } from './dashboard/dashboard.component';
