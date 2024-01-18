@@ -40,5 +40,22 @@ export class CoreModule {
 - **Root Module**: The root module is the top-level module that tells Angular how to assemble the application. The root module is conventionally named `AppModule`.
 - **Shared Module**: The shared module is used to organize and expose common components, directives, and pipes that are used across multiple feature modules. By placing these common elements in a shared module, you can reduce duplication and make your codebase more maintainable.
 ```js
+import { CommonModule } from '@angular/common';
+import { NgModule } from '@angular/core';
 
+import { CustomerComponent } from './components/customer/customer.component';
+import { PercentagePipe } from './pipes/percentage/percentange.pipe';
+import { CustomerStyleDirective } from './directives/customer-style/customer-style.directive';
+
+@NgModule({
+ imports: [ CommonModule ],
+ exports: [
+   CommonModule,
+   CustomerComponent,
+   PercentagePipe,
+   CustomerStyleDirective 
+ ],
+ declarations: [ CustomerComponent, CustomerStyleDirective, PercentagePipe ]
+})
+export class SharedModule {}
 ```
