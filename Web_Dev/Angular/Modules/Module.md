@@ -24,6 +24,10 @@ declarations: [
    NewCmpComponent
 ]
 ```
+**Import**
+**Export**
+**Providers**
+**Bootstrap**
 
 
 
