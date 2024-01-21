@@ -1,7 +1,27 @@
 # Angular 17 Module Training Guide
 
 ## Introduction to Angular Modules
-Angular applications are divided into modules. A module is a container for a cohesive block of code dedicated to an aspect of the application. Angular has two types of modules:
+Angular applications are divided into modules. A module is a container for a cohesive block of code dedicated to an aspect of the application.Module in Angular refers to a place where you can group the components, directives, pipes, and services, which are related to the application.
+The structure for the ngmodule is as shown below 
+ ```js
+@NgModule({
+   declarations: [
+      AppComponent
+   ],
+   imports: [
+      BrowserModule
+   ],
+   providers: [],
+   bootstrap: [AppComponent]
+})
+```
+
+
+
+
+
+
+Angular has four types of modules:
 
 - **Feature Modules**: These modules group together related components, directives, pipes and providers for a specific feature of your application. They are loaded lazily to speed up initial load time.
   These modules encapsulate a specific feature of your application. For example, you might have a dashboard feature that displays various data visualizations. All the components, directives, pipes, and    services related to this feature would be grouped into one feature module. Feature modules are typically loaded lazily to improve the initial load time of the application.
