@@ -15,9 +15,15 @@ The structure for the ngmodule is as shown below
    bootstrap: [AppComponent]
 })
 ```
+**Declaration**
+It is an array of components created. If any new component gets created, it will be imported first and the reference will be included in declarations as shown below 
 
-
-
+ ```js
+declarations: [
+   AppComponent,
+   NewCmpComponent
+]
+```
 
 
 
