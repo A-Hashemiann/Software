@@ -8,3 +8,4 @@ Python is widely used in scientific computing due to its simplicity and the avai
 - **Versatility**: Python can be used for a wide range of tasks, from web development to data analysis to machine learning.
 - **Extensive Libraries**: Python has a rich ecosystem of libraries for scientific computing, such as NumPy, SciPy, pandas, matplotlib, and scikit-learn.
 - **Community Support**: Python has a large and active community, which means you can find plenty of resources, tutorials, and solutions to common problems online.
+## Setting Up Your Python Environment
