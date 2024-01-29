@@ -11,3 +11,12 @@ Python is widely used in scientific computing due to its simplicity and the avai
 
 
 ## Setting Up Your Python Environment
+
+1. Download and install Python from the official website: https://www.python.org/downloads/
+2. Open a terminal or command prompt.
+3. Check if Python is installed correctly by typing `python --version`. This should display the version of Python that you just installed.
+4. Install pip, which is a package manager for Python. You can download it from https://pip.pypa.io/en/stable/installing/.
+5. Create a new directory for your project and navigate into it using the `cd` command.
+6. Create a virtual environment in your project directory by running `python -m venv env`.
+7. Activate the virtual environment. On Windows, run `.\env\Scripts\activate`, and on Unix or MacOS, run `source env/bin/activate`.
+8. Now you can install packages in your virtual environment using pip.
