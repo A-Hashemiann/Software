@@ -37,5 +37,7 @@ Replace `myprojectenv` with the name you want to give to your virtual environmen
 
 Before starting your project, activate the virtual environment:
 
+` bash source myprojectenv/bin/activate ` 
+
 
 
