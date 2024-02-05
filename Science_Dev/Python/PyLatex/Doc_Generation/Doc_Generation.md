@@ -36,3 +36,6 @@ Replace `myprojectenv` with the name you want to give to your virtual environmen
 ## Step 4: Activate the Virtual Environment
 
 Before starting your project, activate the virtual environment:
+
+
+
