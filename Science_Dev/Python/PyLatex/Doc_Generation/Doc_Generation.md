@@ -20,3 +20,13 @@ restart your shell or open a new terminal window to apply the changes.
 Use `pyenv` to install the specific Python version needed for your project:
 
 ` bash pyenv install 3.8.0 ` 
+
+Replace `3.8.0` with the desired version number.
+
+## Step 3: Create a Virtual Environment
+
+Once the desired Python version is installed, create a virtual environment using `virtualenv` or `venv`:
+
+Using `virtualenv`:
+
+` bash pip install virtualenv virtualenv myprojectenv ` 
