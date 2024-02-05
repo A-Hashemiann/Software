@@ -47,3 +47,9 @@ With the virtual environment activated, install any required packages using `pip
 
 ` bash pip install -r req.txt ` 
 
+
+## Step 6: Run Your Project
+
+Now you can run your project with the specified Python version:
+
+` bash python main.py `
