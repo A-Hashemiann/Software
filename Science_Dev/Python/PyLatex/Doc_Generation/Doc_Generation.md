@@ -39,5 +39,11 @@ Before starting your project, activate the virtual environment:
 
 ` bash source myprojectenv/bin/activate ` 
 
+Your prompt should now indicate the active virtual environment.
 
+## Step 5: Install Packages
+
+With the virtual environment activated, install any required packages using `pip`:
+
+` bash pip install -r req.txt ` 
 
