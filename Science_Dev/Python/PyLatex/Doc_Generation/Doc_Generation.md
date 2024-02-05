@@ -10,4 +10,4 @@ Use `pyenv` to manage multiple Python versions on your Linux system. To install 
 
 after installation add the following lines to your shell configuration file (`.bashrc`, `.zshrc`, etc.):
 
-`bash export PATH="HOME/.pyenv/bin:PATH" eval "(pyenvinit−−path)"eval"(pyenv init -)" eval "$(pyenv virtualenv-init -)"` 
+` bash export PATH="HOME/.pyenv/bin:PATH" eval "(pyenvinit−−path)"eval"(pyenv init -)" eval "$(pyenv virtualenv-init -)" ` 
