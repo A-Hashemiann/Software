@@ -13,3 +13,6 @@ if __name__ == "__main__":
   doc.preamble.append(Command("author", "Your Name"))
   doc.preamble.append(Command("date", NoEscape(r"\today")))
   doc.append(NoEscape(r"\maketitle"))
+  
+  # Dump LaTeX Code finally, the script converts the entire document to a string in LaTeX syntax
+  tex = doc.dumps()
