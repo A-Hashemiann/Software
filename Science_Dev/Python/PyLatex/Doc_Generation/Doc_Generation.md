@@ -3,3 +3,4 @@
 ## Step 1: Install pyenv
 
 Use `pyenv` to manage multiple Python versions on your Linux system. To install `pyenv`, run the following command:
+`bash curl https://pyenv.run | bash` 
