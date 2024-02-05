@@ -30,3 +30,9 @@ Once the desired Python version is installed, create a virtual environment using
 Using `virtualenv`:
 
 ` bash pip install virtualenv virtualenv myprojectenv ` 
+
+Replace `myprojectenv` with the name you want to give to your virtual environment.
+
+## Step 4: Activate the Virtual Environment
+
+Before starting your project, activate the virtual environment:
