@@ -11,3 +11,12 @@ Use `pyenv` to manage multiple Python versions on your Linux system. To install 
 after installation add the following lines to your shell configuration file (`.bashrc`, `.zshrc`, etc.):
 
 ` bash export PATH="HOME/.pyenv/bin:PATH" eval "(pyenvinit−−path)"eval"(pyenv init -)" eval "$(pyenv virtualenv-init -)" ` 
+
+
+restart your shell or open a new terminal window to apply the changes.
+
+## Step 2: Install the Desired Python Version
+
+Use `pyenv` to install the specific Python version needed for your project:
+
+` bash pyenv install 3.8.0 ` 
