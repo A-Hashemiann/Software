@@ -9,6 +9,7 @@ int main() {
     cout << "Size of double: " << sizeof(double) << " bytes" << endl;
     cout << "Size of long: " << sizeof(long) << " bytes" << endl;
     cout << "Size of long long: " << sizeof(long long) << " bytes" << endl;
+    cout << "Size of long long: " << sizeof(long double) << " bytes" << endl;
     cout << "Size of short: " << sizeof(short) << " bytes" << endl;
     cout << "Size of bool: " << sizeof(bool) << " bytes" << endl;
 
