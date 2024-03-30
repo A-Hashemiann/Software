@@ -14,6 +14,15 @@ int main() {
     cout<<a<<endl;
     cout<<b<<endl;
     cout<<a+b<<endl;
+    
+    cout << "The maximum limit of a long long is: " << numeric_limits<long long>::max() << endl;
+    cout << "The minimum limit of a long long is: " << numeric_limits<long long>::min() << endl;
+    cout << "The maximum limit of a long long is: " << numeric_limits<unsigned long long>::max() << endl;
+    
+    int bitsInChar = sizeof(char) * 8;
+    cout << "The char data type contains " << bitsInChar << " bits" << endl;
+    
+    cout << "The maximum limit of a char is: " << numeric_limits<unsigned char>::max() << endl;
 
     return 0;
 }
