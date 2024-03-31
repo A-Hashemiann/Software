@@ -25,6 +25,26 @@ int main() {
     string inputValue;
     cout << "Enter the number: ";
     cin >> inputValue;
+    
+    bool isWithinLimit = false;
+    if (inputType == "int") {
+        isWithinLimit = isWithinLimits<int>(inputValue);
+    } else if (inputType == "long") {
+        isWithinLimit = isWithinLimits<long>(inputValue);
+    } else if (inputType == "float") {
+        isWithinLimit = isWithinLimits<float>(inputValue);
+    } else if (inputType == "double") {
+        isWithinLimit = isWithinLimits<double>(inputValue);
+    } else {
+        cout << "Invalid type. Please enter int, long, float, or double." << endl;
+        return 1;
+    }
+
+    if (isWithinLimit) {
+        cout << "The number is within the limits of the specified type." << endl;
+    } else {
+        cout << "The number is outside the limits of the specified type." << endl;
+    }
 
 
 
