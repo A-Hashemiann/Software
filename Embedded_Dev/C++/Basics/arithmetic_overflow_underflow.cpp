@@ -41,6 +41,16 @@ bool checkOverflowMul(int a, int b) {
     return false; // no overflow or underflow
 }
 
+// function to check for overflow during division
+bool checkOverflowDiv(int a, int b) {
+    if (b == 0) {
+        return true; // division by zero is undefined behavior
+    }
+    if (a == numeric_limits<int>::min() && b == -1) {
+        return true; // overflow will occur
+    }
+    return false; // no overflow or underflow
+}
 
 
 int main() {
