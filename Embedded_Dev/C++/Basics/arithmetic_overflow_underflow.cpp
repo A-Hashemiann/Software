@@ -60,6 +60,36 @@ int main() {
     cin>>a;
     cin>>b;
     cout<< a<<endl<<b <<endl;
+    
+    
+    
+     cout << "addition: ";
+    if (checkOverflowAdd(a, b)) {
+        cout << "overflow/underflow detected.\n";
+    } else {
+        cout << "no overflow/underflow.\n";
+    }
+
+    cout << "subtraction: ";
+    if (checkOverflowSub(a, b)) {
+        cout << "overflow/underflow detected.\n";
+    } else {
+        cout << "no overflow/underflow.\n";
+    }
+
+    cout << "multiplication: ";
+    if (checkOverflowMul(a, b)) {
+        cout << "overflow/underflow detected.\n";
+    } else {
+        cout << "No overflow/underflow.\n";
+    }
+
+    cout << "division: ";
+    if (checkOverflowDiv(a, b)) {
+        cout << "overflow/underflow detected.\n";
+    } else {
+        cout << "no overflow/underflow.\n";
+    }
 
     return 0;
 }
