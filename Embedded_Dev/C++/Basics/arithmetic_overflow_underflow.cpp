@@ -17,7 +17,11 @@ bool checkOverflowAdd(int a, int b) {
 
 int main() {
 
- 
+  int a,b;
+    cout<< "Enter value of a and b : "<<endl;
+    cin>>a;
+    cin>>b;
+    cout<< a<<endl<<b <<endl;
 
     return 0;
 }
