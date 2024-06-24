@@ -1,25 +1,27 @@
+// LED.h
+
 #ifndef LED_H
 #define LED_H
 
-#include "stm32f4xx_hal.h" // replace with your specific HAL header
+#include "stm32f4xx_hal.h" 
 
 class LED {
 public:
-    // constructor to initialize the LED with a GPIO port and pin
+    // constructor 
     LED(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin);
-    
-    // method to turn on the LED
-    void On();
-    
-    // method to turn off the LED
-    void Off();
-    
-    // method to toggle the LED state
-    void Toggle();
-    
+
+    //turn the LED on
+    void on();
+
+    // turn the LED off
+    void off();
+
+    //the LED state
+    void toggle();
+
 private:
-    GPIO_TypeDef* m_GPIOx;
-    uint16_t m_GPIO_Pin;
+    GPIO_TypeDef* GPIOx_;
+    uint16_t GPIO_Pin_;
 };
 
 #endif 
